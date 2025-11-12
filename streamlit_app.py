@@ -68,7 +68,7 @@ h1,h2,h3,h4,h5,h6,p,div,label {{
 
 /* card utilitário opcional */
 .card {{
-  background: {CINZA_CARD};
+  background: {BRANCO};
   border: 1px solid #E9E9E7;
   border-radius: 16px;
   padding: 16px;
