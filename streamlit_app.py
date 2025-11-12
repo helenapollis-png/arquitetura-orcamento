@@ -12,6 +12,45 @@ import streamlit as st
 # ------------------------
 st.set_page_config(page_title="Calculadora de Orçamentos — Sophia Pollis Arquitetura",
                    page_icon="📐", layout="wide")
+st.markdown("""
+    <style>
+
+    /* Número e texto dentro dos inputs */
+    .stNumberInput input, 
+    .stTextInput input, 
+    .stTextArea textarea,
+    textarea, input {
+        color: white !important;
+    }
+
+    /* Labels dentro dos inputs (placeholder) */
+    ::placeholder {
+        color: #eeeeee !important;
+        opacity: 1;
+    }
+
+    /* Selectbox texto */
+    .stSelectbox div[data-baseweb="select"] > div {
+        color: white !important;
+    }
+
+    /* Texto dentro do dropdown */
+    .stSelectbox [data-baseweb="select"] * {
+        color: white !important;
+    }
+
+    /* Expander título */
+    .st-expanderHeader {
+        color: white !important;
+    }
+
+    /* Texto dentro do expander */
+    .streamlit-expanderContent {
+        color: white !important;
+    }
+
+    </style>
+""", unsafe_allow_html=True)
 
 # Paleta
 OLIVA = "#7A7A52"
